@@ -1,0 +1,23 @@
+
+title: My Resume
+url: 'http://localhost:4000'
+baseurl: '/CVBox' #change it according to your repository name
+
+
+
+# Profile information
+yourname: Toni Kolaba  ## put your name
+title: 'PROGRAMMER'  ## your title
+location: Tirana , AL
+
+
+## Social Profiles
+facebook: http://www.facebook.com/tonikolaba  ## your facebook account url
+twitter: http://www.twitter.com/tonikolaba  ## your twitter account url
+linkedin: https://www.linkedin.com/in/nduekolaba  ## your linkedin account url
+github: https://github.com/tonikolaba ## you github account url
+instagram: https://www.instagram.com/tonikolaba/  ## your instagram account url
+
+
+
+# Update all the sections by editing the files inside _includes folder.

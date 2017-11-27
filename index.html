@@ -1,0 +1,186 @@
+---
+layout: default
+---
+
+
+<!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Laoding page -->
+<!-- <div id="preloader"><div id="spinner"></div></div> -->
+
+<!-- .slideshow -->
+<ul class="cb-slideshow" id="cb_slideshow" style="display:none">
+    <li><span>Image 01</span><div></div></li>
+    <li><span>Image 02</span><div></div></li>
+    <li><span>Image 03</span><div></div></li>
+    <li><span>Image 04</span><div></div></li>
+    <li><span>Image 05</span><div></div></li>
+    <li><span>Image 06</span><div></div></li>
+</ul> 
+<!-- /.slideshow --> 
+
+<!-- .wrapper --> 
+<div class="wrapper">
+
+<!--- .Content --> 
+<section class="tab-content">
+<div class="container">
+
+<div class="row">
+
+<div class="col-md-12">
+
+<div class="row">   
+
+<!-- profile -->
+<div class="col-md-3 widget-profil">
+<div class="row">
+
+    <!-- Profile Image -->
+    <div class="col-lg-12 col-md-12 col-sm-3 col-xs-12 ">
+    	 
+		 
+                                
+         <div class="image-holder one" id="pic_prof_1" style="display:block">
+        
+                <img class="head-image up circle" src="images/img/up.png" width="150" height="150" alt="" />
+                <img class="head-image up-left circle" src="images/img/upleft.png" width="150" height="150" alt="" />
+                <img class="head-image left circle" src="images/img/left.png" width="150" height="150" alt="" />
+                <img class="head-image down-left circle" src="images/img/downleft.png" width="150" height="150" alt="" />
+                <img class="head-image down circle" src="images/img/down.png" width="150" height="150" alt="" />
+                <img class="head-image down-right circle" src="images/img/downright.png" width="150" height="150" alt="" />
+                <img class="head-image right circle" src="images/img/right.png" width="150" height="150" alt="" />
+                <img class="head-image up-right circle" src="images/img/upright.png" width="150" height="150" alt="" />
+                <img class="head-image front circle" src="images/img/front.png" width="150" height="150" alt="" />
+                
+        </div>
+        
+        <!-- style for simple image profile -->		
+   		<div class="circle-img" id="pic_prof_2" style="display:none"></div>
+       
+    
+    </div>
+    <!-- End Profile Image -->
+  
+    <!-- Begin profile information -->
+    <div class="col-lg-12 col-md-12 col-sm-9 col-xs-12">
+        <!-- Profile info -->
+        <div id="profile_info">
+            <h1 id="name" class="transition-02">{{ site.yourname }}</h1>
+            <h4 class="line">{{ site.title }}</h4>
+            <h6><span class="fa fa-map-marker"></span> {{ site.location }}</h6>
+        </div>
+        <!-- End Profile info -->  
+    	
+        
+        <!-- Profile Description -->
+        <div id="profile_desc">
+            <p>
+            	<center>'ᴅᴏ sᴍᴀʟʟ ᴛʜɪɴᴋs ᴡɪᴛʜ ɢʀᴇᴀᴛ ʟᴏᴠᴇ'</center>
+            </p>
+            
+        </div>
+        <!-- End Profile Description -->  
+    	
+        
+        <!-- Name -->
+         <div id="profile_social">
+            <h6>Stay Social</h6>
+			
+            <a href="{{site.facebook}}"><i class="fa fa-facebook"></i></a>
+            <a href="{{site.twitter}}"><i class="fa fa-twitter"></i></a>
+            <a href="{{site.linkedin}}"><i class="fa fa-linkedin"></i></a>
+            <a href="{{site.github}}"><i class="fa fa-github"></i></a>
+            <a href="{{site.instagram}}"><i class="fa fa-instagram"></i></a>
+            <div class="clear"></div>
+        </div>
+        <!-- End Name -->  
+
+        <div id="profile_desc">
+            <p>
+                With &hearts; by <a href="https://jekyllrb.com/" target="_blank" title="jekyll" class="a-footer">Jekyll</a>
+            </p>
+        </div>
+
+    </div>
+    <!-- End profile information -->
+  
+</div>                                      
+</div> 
+<!-- end profile -->
+
+<div class="col-md-9 flexy_content" style="padding-left: 0;padding-right: 0;">
+
+<!-- verticalTab menu -->
+<div id="verticalTab">
+
+    <ul class="resp-tabs-list">
+        <li class="tabs-profile hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a profile" data-tab-name="profile">			
+            <span class="tite-list">profile</span>
+            <i class="fa fa-user icon_menu icon_menu_active"></i>
+        </li>
+
+        <li class="tabs-resume hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="resume"> 
+            <span class="tite-list">resume</span>
+            <i class="fa fa-tasks icon_menu"></i>
+        </li>
+
+        <li class="tabs-portfolio hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="portfolio"> 
+            <span class="tite-list">portfolio</span>
+            <i class="fa fa-briefcase icon_menu"></i>
+        </li>
+
+<!--
+        <a href="#" id="print"><i class="fa fa-print icon_print"></i> </a>
+        <a href="#" id="downlowd"><i class="fa fa-download icon_print"></i> </a>
+-->
+    </ul>
+    <!-- /resp-tabs-list -->
+
+
+
+<!-- resp-tabs-container --> 
+<div class="resp-tabs-container">
+
+{% include /profile.html %}
+
+{% include /cv.html %}
+
+
+{% include /portfolio.html %}
+
+
+
+</div>
+<!-- End #resp-tabs-container --> 
+
+</div><!-- End verticalTab -->
+
+</div><!-- End flexy_content -->
+
+
+</div><!-- End row -->
+
+</div><!-- End col-md-12 -->
+
+</div><!-- End row -->
+
+</div><!-- End container -->
+
+</section>
+<!-- End Content -->
+
+</div>
+<!-- End wrapper -->
+
+
+
+
+
+
+
+
+
+       
