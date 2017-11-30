@@ -1,7 +1,7 @@
 ---
 title: CVBox
 homepage: https://github.com/tonikolaba/CVBox
-download: https://github.com/shower/jekyller/archive/v1.0.zip
+download: https://github.com/tonikolaba/CVBox/archive/v1.0.zip
 demo:  https://tonikolaba.github.io/CVBox/
 author: tonikolaba
 thumbnail: jekyller.jpg
