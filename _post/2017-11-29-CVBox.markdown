@@ -4,7 +4,6 @@ homepage: https://github.com/tonikolaba/CVBox
 download: https://github.com/tonikolaba/CVBox/archive/v1.0.zip
 demo:  https://tonikolaba.github.io/CVBox/
 author: tonikolaba
-thumbnail: jekyller.jpg
 license: MIT License
 license_link: https://github.com/tonikolaba/CVBox/blob/master/LICENSE.MD
 github_repo: tonikolaba/CVBox
