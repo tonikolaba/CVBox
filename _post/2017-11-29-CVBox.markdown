@@ -1,0 +1,33 @@
+---
+title: CVBox
+homepage: https://github.com/tonikolaba/CVBox
+download: https://github.com/shower/jekyller/archive/v1.0.zip
+demo:  https://tonikolaba.github.io/CVBox/
+author: tonikolaba
+thumbnail: jekyller.jpg
+license: MIT License
+license_link: https://github.com/tonikolaba/CVBox/blob/master/LICENSE.MD
+github_repo: tonikolaba/CVBox
+
+---
+
+
+
+ CVBox
+===================
+
+
+### Live preview [DEMO](https://tonikolaba.github.io/CVBox/)
+
+
+### Web Preview
+
+![Alt text](https://github.com/tonikolaba/CVBox/blob/master/images/1.jpg)
+
+
+
+## Author
+
+* **Toni Kolaba** - *Initial work* - [tonikolaba](https://github.com/tonikolaba)
+
+![Alt text](https://github.com/tonikolaba/download/blob/master/info/artofsoullogoVOG.png)
