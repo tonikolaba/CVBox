@@ -1,22 +1,23 @@
 
-title: My Resume
-url: 'http://localhost:4000'
-baseurl: '/CVBox' #change it according to your repository name
-
+title: CVBox
+url: 'https://tonikolaba.github.io/CVBox/'
+plugins:
+  - jekyll-sitemap
+baseurl: '/CVBox' 
 
 
 # Profile information
-yourname: Toni Kolaba  ## put your name
-title: 'PROGRAMMER'  ## your title
+yourname: Toni Kolaba  
+title: 'PROGRAMMER'  
 location: Tirana , AL
 
 
 ## Social Profiles
-facebook: http://www.facebook.com/tonikolaba  ## your facebook account url
-twitter: http://www.twitter.com/tonikolaba  ## your twitter account url
-linkedin: https://www.linkedin.com/in/nduekolaba  ## your linkedin account url
-github: https://github.com/tonikolaba ## you github account url
-instagram: https://www.instagram.com/tonikolaba/  ## your instagram account url
+facebook: http://www.facebook.com/tonikolaba  
+twitter: http://www.twitter.com/tonikolaba  
+linkedin: https://www.linkedin.com/in/nduekolaba  
+github: https://github.com/tonikolaba 
+instagram: https://www.instagram.com/tonikolaba/  
 
 
 

@@ -1,0 +1,27 @@
+name: CVBox
+description: Personal Card Template. Creating your personal CV Page!
+url: 'https://tonikolaba.github.io/CVBox/'
+baseurl: '/CVBox'
+github: 'https://github.com/tonikolaba/CVBox/'
+permalink: /:title/
+markdown: rdiscount
+cdn: ''
+gems:
+  - jekyll-sitemap
+
+sass:
+  sass_dir: /assets/_sass
+  style: :compressed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+  - CNAME
+defaults:
+  -
+    scope:
+      path: ''
+      type: posts
+    values:
+layout: post
