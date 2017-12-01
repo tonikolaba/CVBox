@@ -7,7 +7,7 @@
 
 ### Web Preview
 
-![Alt text](https://github.com/tonikolaba/CVBox/blob/master/images/demo.png)
+![Alt text](https://github.com/tonikolaba/CVBox/blob/master/images/Demo.png)
 
 ### Installation
 
