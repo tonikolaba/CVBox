@@ -7,13 +7,13 @@
 
 ### Web Preview
 
-![Alt text](https://github.com/tonikolaba/CVBox/blob/master/images/1.jpg)
+![Alt text](https://github.com/tonikolaba/CVBox/blob/master/images/demo.png)
 
 ### Installation
 
     Fork this repository
     Clone it: git clone https://github.com/YOUR-USER/CVBox
-    Install the GitHub Pages gem (includes Jekyll): 
+    Install the GitHub Pages gem (includes Jekyll):
     bundle update
     Run the jekyll server: jekyll serve
 

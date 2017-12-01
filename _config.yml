@@ -3,21 +3,20 @@ title: CVBox
 url: 'https://tonikolaba.github.io/CVBox/'
 plugins:
   - jekyll-sitemap
-baseurl: '/CVBox' 
+baseurl: '/CVBox'
 
 
 # Profile information
-yourname: Toni Kolaba  
-title: 'PROGRAMMER'  
-location: Tirana , AL
-
+yourname: Toni Kolaba
+title: 'Love Programming'
+location: Albania
 
 ## Social Profiles
-facebook: http://www.facebook.com/tonikolaba  
-twitter: http://www.twitter.com/tonikolaba  
-linkedin: https://www.linkedin.com/in/nduekolaba  
-github: https://github.com/tonikolaba 
-instagram: https://www.instagram.com/tonikolaba/  
+facebook: http://www.facebook.com/tonikolaba
+twitter: http://www.twitter.com/tonikolaba
+linkedin: https://www.linkedin.com/in/nduekolaba
+github: https://github.com/tonikolaba
+instagram: https://www.instagram.com/tonikolaba/
 
 
 

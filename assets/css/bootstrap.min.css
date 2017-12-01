@@ -332,13 +332,21 @@ hr {
     clip: rect(0, 0, 0, 0);
     border: 0
 }
+
 h1,
+.h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit
+}
+
+
 h2,
 h3,
 h4,
 h5,
 h6,
-.h1,
 .h2,
 .h3,
 .h4,
@@ -349,6 +357,18 @@ h6,
     line-height: 1.1;
     color: inherit
 }
+
+
+h5,
+.h5
+{
+    font-family: 'Indie Flower', cursive;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit
+}
+
+
 h1 small,
 h2 small,
 h3 small,
