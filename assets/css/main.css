@@ -58,9 +58,9 @@ body {
     font-weight: 400;
     font-size: 13px;
     line-height: 25px;
-    color: #333333;
+    /*color: #333333;*/
     overflow-x: hidden;
-    background-image: url(../images/bg/bgB22.png);
+    /*background-image: url(../images/bg/bgB22.png);*/
     padding: 0;
 }
 
